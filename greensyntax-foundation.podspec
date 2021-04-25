@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "greensyntax-foundation"
-  s.version      = "1.0.1"
+  s.version      = "1.0.4"
   s.summary      = "A Foundation Module for in-house iOS project"
   s.homepage     = "https://github.com/greenSyntax/greensyntax-foundation"
   s.license      = 'MIT'

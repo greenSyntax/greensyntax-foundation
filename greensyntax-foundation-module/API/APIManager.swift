@@ -9,11 +9,11 @@ import UIKit
 
 public class APIManager {
     
-    func get() {
+    public func get() {
         
     }
     
-    func post() {
+    public func post() {
         
     }
     

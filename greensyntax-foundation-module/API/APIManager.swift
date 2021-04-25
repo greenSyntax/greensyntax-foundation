@@ -7,7 +7,7 @@
 
 import UIKit
 
-class APIManager {
+public class APIManager {
     
     func get() {
         

@@ -7,14 +7,14 @@
 
 import Foundation
 
-enum HTTPVerb {
+public enum HTTPVerb {
     case GET
     case POST
     case PUT
     case DELETE
 }
 
-struct API {
+public struct API {
     let url: URL
     let verb: HTTPVerb
     var headers: [String: String]

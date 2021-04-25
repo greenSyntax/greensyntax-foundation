@@ -12,10 +12,11 @@
 		467F344C2635DFB2009A698C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467F344B2635DFB2009A698C /* Assets.xcassets */; };
 		467F344F2635DFB2009A698C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467F344D2635DFB2009A698C /* LaunchScreen.storyboard */; };
 		467F345A2635DFB2009A698C /* greensyntax_foundation_moduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F34592635DFB2009A698C /* greensyntax_foundation_moduleTests.swift */; };
-		467F34652635DFB2009A698C /* greensyntax_foundation_moduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F34642635DFB2009A698C /* greensyntax_foundation_moduleUITests.swift */; };
 		467F34872635E059009A698C /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F34862635E059009A698C /* APIManager.swift */; };
 		467F348F2635E062009A698C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F348E2635E062009A698C /* DataManager.swift */; };
 		467F34952635E08D009A698C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F34942635E08D009A698C /* API.swift */; };
+		CE589EDA2C7C44FE06A94F56 /* Pods_greensyntax_foundation_moduleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4185A81AD8DC75CF02738C2A /* Pods_greensyntax_foundation_moduleTests.framework */; };
+		F27A32DB93B77519E2D12681 /* Pods_greensyntax_foundation_module.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6F73732D139D19A49BF5A9 /* Pods_greensyntax_foundation_module.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +27,10 @@
 			remoteGlobalIDString = 467F343E2635DFAF009A698C;
 			remoteInfo = "greensyntax-foundation-module";
 		};
-		467F34612635DFB2009A698C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 467F34372635DFAE009A698C /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 467F343E2635DFAF009A698C;
-			remoteInfo = "greensyntax-foundation-module";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4185A81AD8DC75CF02738C2A /* Pods_greensyntax_foundation_moduleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greensyntax_foundation_moduleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F343F2635DFAF009A698C /* greensyntax-foundation-module.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "greensyntax-foundation-module.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F34422635DFAF009A698C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		467F34442635DFAF009A698C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,12 +40,14 @@
 		467F34552635DFB2009A698C /* greensyntax-foundation-moduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "greensyntax-foundation-moduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F34592635DFB2009A698C /* greensyntax_foundation_moduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greensyntax_foundation_moduleTests.swift; sourceTree = "<group>"; };
 		467F345B2635DFB2009A698C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		467F34602635DFB2009A698C /* greensyntax-foundation-moduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "greensyntax-foundation-moduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		467F34642635DFB2009A698C /* greensyntax_foundation_moduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = greensyntax_foundation_moduleUITests.swift; sourceTree = "<group>"; };
-		467F34662635DFB2009A698C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467F34862635E059009A698C /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		467F348E2635E062009A698C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		467F34942635E08D009A698C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		5143E8FAED54C8501BD4C97D /* Pods-greensyntax-foundation-moduleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greensyntax-foundation-moduleTests.debug.xcconfig"; path = "Target Support Files/Pods-greensyntax-foundation-moduleTests/Pods-greensyntax-foundation-moduleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		800729780A4D51DF15208DC4 /* Pods-greensyntax-foundation-module.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greensyntax-foundation-module.release.xcconfig"; path = "Target Support Files/Pods-greensyntax-foundation-module/Pods-greensyntax-foundation-module.release.xcconfig"; sourceTree = "<group>"; };
+		9B6F73732D139D19A49BF5A9 /* Pods_greensyntax_foundation_module.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_greensyntax_foundation_module.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFB7033335A5772305F191C7 /* Pods-greensyntax-foundation-module.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greensyntax-foundation-module.debug.xcconfig"; path = "Target Support Files/Pods-greensyntax-foundation-module/Pods-greensyntax-foundation-module.debug.xcconfig"; sourceTree = "<group>"; };
+		E8709F2856EF3518FA17DDCA /* Pods-greensyntax-foundation-moduleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-greensyntax-foundation-moduleTests.release.xcconfig"; path = "Target Support Files/Pods-greensyntax-foundation-moduleTests/Pods-greensyntax-foundation-moduleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27A32DB93B77519E2D12681 /* Pods_greensyntax_foundation_module.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,26 +63,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		467F345D2635DFB2009A698C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				CE589EDA2C7C44FE06A94F56 /* Pods_greensyntax_foundation_moduleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		447647F1B2DF21EC52CDE96F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6F73732D139D19A49BF5A9 /* Pods_greensyntax_foundation_module.framework */,
+				4185A81AD8DC75CF02738C2A /* Pods_greensyntax_foundation_moduleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		467F34362635DFAE009A698C = {
 			isa = PBXGroup;
 			children = (
 				467F34412635DFAF009A698C /* greensyntax-foundation-module */,
 				467F34582635DFB2009A698C /* greensyntax-foundation-moduleTests */,
-				467F34632635DFB2009A698C /* greensyntax-foundation-moduleUITests */,
 				467F34402635DFAF009A698C /* Products */,
+				BF1DEF8E9F94293AC7AF51A8 /* Pods */,
+				447647F1B2DF21EC52CDE96F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +95,6 @@
 			children = (
 				467F343F2635DFAF009A698C /* greensyntax-foundation-module.app */,
 				467F34552635DFB2009A698C /* greensyntax-foundation-moduleTests.xctest */,
-				467F34602635DFB2009A698C /* greensyntax-foundation-moduleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,15 +123,6 @@
 			path = "greensyntax-foundation-moduleTests";
 			sourceTree = "<group>";
 		};
-		467F34632635DFB2009A698C /* greensyntax-foundation-moduleUITests */ = {
-			isa = PBXGroup;
-			children = (
-				467F34642635DFB2009A698C /* greensyntax_foundation_moduleUITests.swift */,
-				467F34662635DFB2009A698C /* Info.plist */,
-			);
-			path = "greensyntax-foundation-moduleUITests";
-			sourceTree = "<group>";
-		};
 		467F34842635E045009A698C /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +147,18 @@
 			path = Logging;
 			sourceTree = "<group>";
 		};
+		BF1DEF8E9F94293AC7AF51A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFB7033335A5772305F191C7 /* Pods-greensyntax-foundation-module.debug.xcconfig */,
+				800729780A4D51DF15208DC4 /* Pods-greensyntax-foundation-module.release.xcconfig */,
+				5143E8FAED54C8501BD4C97D /* Pods-greensyntax-foundation-moduleTests.debug.xcconfig */,
+				E8709F2856EF3518FA17DDCA /* Pods-greensyntax-foundation-moduleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 467F34692635DFB2009A698C /* Build configuration list for PBXNativeTarget "greensyntax-foundation-module" */;
 			buildPhases = (
+				1E897E48003CA0D5EF67036E /* [CP] Check Pods Manifest.lock */,
 				467F343B2635DFAF009A698C /* Sources */,
 				467F343C2635DFAF009A698C /* Frameworks */,
 				467F343D2635DFAF009A698C /* Resources */,
+				4AC2506B681CC1098EE1A4A7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 467F346C2635DFB2009A698C /* Build configuration list for PBXNativeTarget "greensyntax-foundation-moduleTests" */;
 			buildPhases = (
+				3A7EABDCA0FEBED4C3D1D7E1 /* [CP] Check Pods Manifest.lock */,
 				467F34512635DFB2009A698C /* Sources */,
 				467F34522635DFB2009A698C /* Frameworks */,
 				467F34532635DFB2009A698C /* Resources */,
@@ -193,24 +200,6 @@
 			productReference = 467F34552635DFB2009A698C /* greensyntax-foundation-moduleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		467F345F2635DFB2009A698C /* greensyntax-foundation-moduleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 467F346F2635DFB2009A698C /* Build configuration list for PBXNativeTarget "greensyntax-foundation-moduleUITests" */;
-			buildPhases = (
-				467F345C2635DFB2009A698C /* Sources */,
-				467F345D2635DFB2009A698C /* Frameworks */,
-				467F345E2635DFB2009A698C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				467F34622635DFB2009A698C /* PBXTargetDependency */,
-			);
-			name = "greensyntax-foundation-moduleUITests";
-			productName = "greensyntax-foundation-moduleUITests";
-			productReference = 467F34602635DFB2009A698C /* greensyntax-foundation-moduleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,10 +213,6 @@
 						CreatedOnToolsVersion = 12.3;
 					};
 					467F34542635DFB2009A698C = {
-						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 467F343E2635DFAF009A698C;
-					};
-					467F345F2635DFB2009A698C = {
 						CreatedOnToolsVersion = 12.3;
 						TestTargetID = 467F343E2635DFAF009A698C;
 					};
@@ -248,7 +233,6 @@
 			targets = (
 				467F343E2635DFAF009A698C /* greensyntax-foundation-module */,
 				467F34542635DFB2009A698C /* greensyntax-foundation-moduleTests */,
-				467F345F2635DFB2009A698C /* greensyntax-foundation-moduleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,14 +254,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		467F345E2635DFB2009A698C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E897E48003CA0D5EF67036E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-greensyntax-foundation-module-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		3A7EABDCA0FEBED4C3D1D7E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-greensyntax-foundation-moduleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC2506B681CC1098EE1A4A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greensyntax-foundation-module/Pods-greensyntax-foundation-module-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-greensyntax-foundation-module/Pods-greensyntax-foundation-module-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-greensyntax-foundation-module/Pods-greensyntax-foundation-module-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		467F343B2635DFAF009A698C /* Sources */ = {
@@ -300,14 +341,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		467F345C2635DFB2009A698C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				467F34652635DFB2009A698C /* greensyntax_foundation_moduleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -315,11 +348,6 @@
 			isa = PBXTargetDependency;
 			target = 467F343E2635DFAF009A698C /* greensyntax-foundation-module */;
 			targetProxy = 467F34562635DFB2009A698C /* PBXContainerItemProxy */;
-		};
-		467F34622635DFB2009A698C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 467F343E2635DFAF009A698C /* greensyntax-foundation-module */;
-			targetProxy = 467F34612635DFB2009A698C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -453,6 +481,7 @@
 		};
 		467F346A2635DFB2009A698C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFB7033335A5772305F191C7 /* Pods-greensyntax-foundation-module.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -472,6 +501,7 @@
 		};
 		467F346B2635DFB2009A698C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800729780A4D51DF15208DC4 /* Pods-greensyntax-foundation-module.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -491,6 +521,7 @@
 		};
 		467F346D2635DFB2009A698C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5143E8FAED54C8501BD4C97D /* Pods-greensyntax-foundation-moduleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +544,7 @@
 		};
 		467F346E2635DFB2009A698C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8709F2856EF3518FA17DDCA /* Pods-greensyntax-foundation-moduleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,46 +562,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greensyntax-foundation-module.app/greensyntax-foundation-module";
-			};
-			name = Release;
-		};
-		467F34702635DFB2009A698C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N7Z5XKT3P5;
-				INFOPLIST_FILE = "greensyntax-foundation-moduleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.in.greensyntax.foundation.greensyntax-foundation-moduleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "greensyntax-foundation-module";
-			};
-			name = Debug;
-		};
-		467F34712635DFB2009A698C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N7Z5XKT3P5;
-				INFOPLIST_FILE = "greensyntax-foundation-moduleUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "co.in.greensyntax.foundation.greensyntax-foundation-moduleUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "greensyntax-foundation-module";
 			};
 			name = Release;
 		};
@@ -599,15 +591,6 @@
 			buildConfigurations = (
 				467F346D2635DFB2009A698C /* Debug */,
 				467F346E2635DFB2009A698C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		467F346F2635DFB2009A698C /* Build configuration list for PBXNativeTarget "greensyntax-foundation-moduleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				467F34702635DFB2009A698C /* Debug */,
-				467F34712635DFB2009A698C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
